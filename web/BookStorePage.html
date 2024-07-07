@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Book Store Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Shop now</h1>
+        <form action="DispatcherController" method="POST">
+            Choose book: <select name="choseBook">
+                <option>Math</option>
+                <option>Science</option>
+                <option>Literature</option>
+                <option>Music</option>
+                <option>Art</option>
+                <option>Computer</option>
+            </select> 
+            <button type="submit" name="action" value="AddItem">Add book to cart</button>
+            <button type="submit" name="action" value="ShowCartPage">View your cart</button> <br><!-- comment -->
+            <button type="submit">Back</button>
+        </form>
+    </body>
+</html>
